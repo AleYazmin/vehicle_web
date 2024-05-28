@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+form {
+    margin: 20px;
+    text-align: center;
+}
+
+form input[type="text"], form button, form input[type="date"], form input[type="number"] {
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+}
+
+form button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #007BFF;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-around;
+}
+
+.actions a, .actions form {
+    display: inline;
+}
+
+.actions button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+.actions button:hover {
+    background-color: #cc0000;
+}
+
+.actions a {
+    background-color: #28a745;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+.actions a:hover {
+    background-color: #218838;
+}
